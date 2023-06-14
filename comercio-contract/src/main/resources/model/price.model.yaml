@@ -1,0 +1,18 @@
+Price:
+  type: object
+  properties:
+    productId:
+      type: integer
+      format: int64
+    brandId:
+      type: integer
+      format: int64
+    priceList:
+      type: integer
+      format: int64
+    startDate:
+      type: OffsetDateTime
+    endDate: 
+      type: OffsetDateTime
+    price: 
+      type: string      
